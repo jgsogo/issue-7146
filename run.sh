@@ -1,4 +1,4 @@
-conan remove LibC*
+conan remove LibC*@demo/testing --force
 conan remove LibB/1.0@demo/testing --force
 
 conan create libC.py LibC/1.6.7-dev.0+master.g1fea313@demo/testing
